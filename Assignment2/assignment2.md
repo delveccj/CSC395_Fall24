@@ -7,15 +7,6 @@ Your business development person has done it again. He has hit the road and pitc
 ### His Vision: The AI-Backed Recipes Maker!
 
 Look at the concept screen drawn out below—it's got the notes and what you need to get the job done. Your instructor understands the vision and can fill in some of the details.
-# Assignment 2: The Business Development Person's 'Vision'
-
-## Intro
-
-Your business development person has done it again. He has hit the road and pitched a vision for a new project. He managed to get just enough funds for four weeks of development time for four to five developers.
-
-### His Vision: The AI-Backed Recipes Maker!
-
-Look at the concept screen drawn out below—it's got the notes and what you need to get the job done. Your instructor understands the vision and can fill in some of the details.
 
 ### The Solution Must Be Completely Dockerized!
 
@@ -30,7 +21,7 @@ Look at the concept screen drawn out below—it's got the notes and what you nee
 ### Section: Create the Tickets
 
 1. **Discuss the Vision**:
-   - Your team needs to discuss what the vision means and how to implement it.
+   - Your team needs to discuss what the vision means and how to implement it in code.
 2. **Create the Tickets**:
    - Break down the project into manageable tasks and create GitHub issues (tickets) for each.
 3. **Organize into Sprints**:
@@ -58,3 +49,96 @@ Look at the concept screen drawn out below—it's got the notes and what you nee
 1. **Dockerize the Solution**:
    - Ensure the solution runs as a Docker container.
    - Provide a `docker-compose.yml` that will build the environment and allow the Instructor to run the application easily.
+  
+# Project Plan: Team Collaboration Dashboard
+
+## 1. Project Overview
+- **Project Name**: *Team Collaboration Dashboard*
+- **Objective**: Develop a web application that allows users to generate AI-assisted meeting notes, summaries, or brainstorming ideas using the Ollama API. The application will be built using Flask, Dockerized for deployment, and integrated with the Ollama API for AI-driven features.
+
+## 2. Scope
+- **In Scope**:
+  - Develop a Flask-based web application.
+  - Create a user-friendly UI for inputting text and viewing AI-generated content.
+  - Integrate the Ollama API for text generation and summarization.
+  - Dockerize the application using Docker and `docker-compose`.
+  - Store session data in a lightweight database (e.g., SQLite).
+  - Implement basic testing to ensure functionality.
+  
+- **Out of Scope**:
+  - Advanced AI features beyond basic text generation and summarization.
+  - Deployment to a production environment (unless added as a stretch goal).
+  - User authentication and multi-user support (unless specifically required).
+
+## 3. Timeline and Milestones
+- **Week 1**:
+  - **Milestone 1**: Complete Flask backend setup, including API integration and basic routes.
+  - **Milestone 2**: Dockerize the Flask application and ensure it runs successfully in a container.
+  
+- **Week 2**:
+  - **Milestone 3**: Develop and connect the UI to the Flask backend.
+  - **Milestone 4**: Complete testing, documentation, and prepare a demo of the final product.
+  - **Final Milestone**: Deliver a fully functional Dockerized application that can be run and tested by the instructor.
+
+## 4. Team Roles and Responsibilities
+- **Project Manager**: Oversees the project, coordinates between team members, and ensures milestones are met.
+- **Backend Developer(s)**: Responsible for setting up the Flask server, integrating the Ollama API, and managing the database.
+- **Frontend Developer(s)**: Develops the user interface and ensures seamless interaction with the backend.
+- **DevOps Engineer**: Handles Dockerization, ensuring the application is containerized and can be easily deployed using `docker-compose`.
+- **Tester**: Writes and executes test cases to ensure the application functions correctly, both in development and within Docker.
+- **Presenter**: Prepares and delivers the kickoff presentation and the final project demo.
+
+## 5. Architecture
+- **Flask Backend**:
+  - Routes for handling user input, interacting with Ollama API, and managing session data.
+  
+- **Frontend UI**:
+  - Simple web interface (HTML/CSS/JS) for user interaction.
+  
+- **Database**:
+  - SQLite for storing session data.
+  
+- **Docker**:
+  - `Dockerfile` for creating the Flask application image.
+  - `docker-compose.yml` for orchestrating the Flask service and any dependencies.
+
+## 6. Development Workflow
+- **Version Control**: Use Git and GitHub for version control. Each team member should work on separate branches and submit pull requests for review.
+- **Code Reviews**: Implement code reviews before merging changes into the main branch.
+- **Continuous Integration**: Optionally, set up a CI pipeline (using GitHub Actions) to automate testing of the application on each commit.
+- **Testing**: Develop test cases for both the backend (e.g., API integration) and frontend (e.g., UI functionality). Ensure tests run successfully within the Docker container.
+
+## 7. Risk Management
+- **Risk 1**: API changes or limitations with Ollama may impact development.
+  - **Mitigation**: Keep the API integration modular so alternative APIs can be used if necessary.
+  
+- **Risk 2**: Docker setup issues could delay deployment.
+  - **Mitigation**: Test Docker setup early in the project timeline and ensure everyone has a basic understanding of Docker.
+
+## 8. Success Criteria
+- A fully functional, Dockerized Flask application that can:
+  - Accept user input through the UI.
+  - Generate and display AI-driven content using the Ollama API.
+  - Run seamlessly in a Docker container with no issues during setup or operation.
+  
+- Successful presentation of the project plan, challenges faced, and final product.
+
+## 9. Deliverables
+- **Codebase**: Complete source code in a GitHub repository.
+- **Docker Files**: `Dockerfile` and `docker-compose.yml` for easy deployment.
+- **Documentation**: README with setup instructions, API documentation (if applicable), and any other relevant details.
+- **Presentation**: A five-minute kickoff presentation and a final demo showing the project in action.
+
+## 10. Communication Plan
+- **Regular Meetings**: Weekly check-ins to discuss progress, challenges, and next steps.
+- **Collaboration Tools**: Use GitHub Issues and Project Boards to track tasks and progress. Communication via Slack, Teams, or email as needed.
+
+## Scoring Rubric
+
+| Item                                      | Hi Points                                         | Med Points                               | Low Points                               |
+|-------------------------------------------|---------------------------------------------------|------------------------------------------|------------------------------------------|
+| Tasks Created and Assigned to Sprints     | All tasks are clearly defined and appropriately assigned to sprints with milestones. | Most tasks are defined and assigned to sprints, but some lack clarity or are not properly aligned with milestones. | Few tasks are defined, and there is minimal alignment with sprints or milestones. |
+| GitHub Project Created with Collaborators Invited | GitHub project is created, and all team members, including the instructor, are successfully invited as collaborators. | GitHub project is created, but some collaborators are missing or not invited promptly. | GitHub project is created, but most collaborators are missing, or there was significant delay in inviting them. |
+| GitHub Landing Page Has Project Plan Listed Out | The project plan is thoroughly detailed on the GitHub landing page, including objectives, milestones, and team roles. | The project plan is present but lacks some details or clarity in objectives, milestones, or roles. | The project plan is poorly detailed or missing critical information on the GitHub landing page. |
+| Delivery of Project Kickoff Presentation  | The kickoff presentation is well-prepared, clearly presented, and covers all aspects of the project, including challenges and roles. | The presentation is delivered but may lack some detail, clarity, or coverage of challenges and roles. | The presentation is poorly prepared, lacks detail, or fails to adequately cover the project scope. |
+
