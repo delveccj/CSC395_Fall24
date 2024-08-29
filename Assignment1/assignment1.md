@@ -60,7 +60,9 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 2. Add the following to it and have the markup be bold faced
 
 **My Intro Github Project**
+
 **Name**
+
 **Date of Completed: Date**
 
 
