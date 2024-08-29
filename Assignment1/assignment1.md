@@ -61,9 +61,9 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 
 **My Intro Github Project**
 
-**Name**
+**Your Name**
 
-**Date of Completed: Date**
+**Date Completed: Date**
 
 3.  Do a ```git add```
 4.  Do a ```git commit -m "My first commit"```
