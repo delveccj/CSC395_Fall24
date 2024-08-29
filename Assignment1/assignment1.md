@@ -78,4 +78,4 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 5. Run the command ```git status```.  Copy and paste the output into the text file you will submit to D2L.  It should show there is nothing to commit.
 6. Perform a ```git push```
 
-This super easy lab is now over!  Byt remember - its week one and this is a small lab.
+This super easy lab is now over!  But remember - its week one and this is a small lab.
