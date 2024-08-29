@@ -52,21 +52,28 @@ From the terminal, clone the project.  You should clone using SSH.  Like so
 ```
 git@github.com:delveccj/belt.git
 ```
-Do an ```ls```
+Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents of the git repo you created are there.
 
-## Section: Adding Content
+## Section 4: Editing Content
 
-1. **Edit the Markdown File**:
-    You can choose an appropriate open-source license (e.g., MIT, GPL).
+1. Edit the markdown file.
+2. Add the following to it and have the markup be bold faced
 
-2. **Add a Python File**:
+**My Intro Github Project**
+**Name**
+**Date of Completed: Date**
+
+
+
+
+3. **Add a Python File**:
    - Create a Python file named `tokens.py`.
    - In this file, write a function named `readandcount` that reads in a text file and counts the number of tokens (words).
 
-3. **Commit Your Changes**:
+4. **Commit Your Changes**:
    - Commit your changes with the message: `"First commit for CSC 395"`.
 
-4. **Push to GitHub**:
+5. **Push to GitHub**:
    - Push your commit to the GitHub repository.
 
 ## Section: Tests and .gitignore
