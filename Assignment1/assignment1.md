@@ -46,6 +46,9 @@ gh auth status
 ```
 Copy and paste the output into the text file you will submit to D2L
 
+## Section 3: Cloning the Project
+
+
 ## Section: Adding Content
 
 1. **Edit the Markdown File**:
