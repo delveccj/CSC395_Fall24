@@ -16,10 +16,10 @@
 1. Open a terminal.
 2. Install git if if is not installed.  Here are the steps:
 
-'''
+```
 sudo apt update
 sudo apt install git
-'''
+```
 3. Set your GitHub id and email:
 
 git config --global user.name "Your Github User Name"
