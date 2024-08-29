@@ -56,7 +56,7 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 
 ## Section 4: Editing Content
 
-1. Edit the markdown file.
+1. Edit the ```README.md``` markdown file.
 2. Add the following to it and have the markup be bold faced
 
 **My Intro Github Project**
