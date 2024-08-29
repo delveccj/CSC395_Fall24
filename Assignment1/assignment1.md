@@ -6,7 +6,7 @@
    - Create a new project on GitHub.
    - Set the project to **Private**.
    - Invite me as a collaborator (GitHub username: `delveccj`).
-   - Add a `README.md` file to the project and make it look **pretty**.
+   - Add a `README.md` file to the project and make it look **pretty**.  Demonstrate you understand what markdown (md) is.
 
 ## Section: Adding Content
 
