@@ -48,6 +48,11 @@ Copy and paste the output into the text file you will submit to D2L
 
 ## Section 3: Cloning the Project
 
+From the terminal, clone the project.  You should clone using SSH.  Like so
+```
+git@github.com:delveccj/belt.git
+```
+Do an ```ls``
 
 ## Section: Adding Content
 
