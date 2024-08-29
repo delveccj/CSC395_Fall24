@@ -1,17 +1,43 @@
 # Assignment 1: Getting Familiar with Git
 
-## Section: Intro Exercises
+## Section 1: Intro Exercises
 
 1. **Create a Project**:
    - Create a new project on GitHub.
    - Set the project to **Private**.
+   - Add a `README.md` file to the project.
+   - Add a .gitignore and make the template be Python.
+   - Add a license to your project.
+   - Create the project.
    - Invite me as a collaborator (GitHub username: `delveccj`).
-   - Add a `README.md` file to the project and make it look **pretty**.  Demonstrate you understand what markdown (md) is.
+
+## Section 2: Configure git and gh
+
+1. Open a terminal.
+2. Install git if if is not installed.  Here are the steps:
+
+sudo apt update
+sudo apt install git
+
+3. Set your GitHub id and email:
+
+git config --global user.name "Your Github User Name"
+git config --global user.email "your.email@example.com"
+
+4. Install gh if it is not installed.  Here are the steps:
+
+sudo apt update
+sudo apt install gh
+
+5. Login to GitHub via gh
+
+gh auth login
+
 
 ## Section: Adding Content
 
-1. **Add a License**:
-   - Add a license to your project. You can choose an appropriate open-source license (e.g., MIT, GPL).
+1. **Edit the Markdown File**:
+    You can choose an appropriate open-source license (e.g., MIT, GPL).
 
 2. **Add a Python File**:
    - Create a Python file named `tokens.py`.
