@@ -65,17 +65,18 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 
 **Date of Completed: Date**
 
+3.  Do a ```git add```
+4.  Do a ```git commit -m "My first commit"```
+5.  Do a ```git push```.  You may need to set the remote origin for this to work! It will be something like this: ```git remote add origin git@github.com:yourusername/yourrepository.git```
 
-
-
-3. **Add a Python File**:
+6. **Add a Python File**:
    - Create a Python file named `tokens.py`.
    - In this file, write a function named `readandcount` that reads in a text file and counts the number of tokens (words).
 
-4. **Commit Your Changes**:
+7. **Commit Your Changes**:
    - Commit your changes with the message: `"First commit for CSC 395"`.
 
-5. **Push to GitHub**:
+8. **Push to GitHub**:
    - Push your commit to the GitHub repository.
 
 ## Section: Tests and .gitignore
