@@ -52,7 +52,7 @@ From the terminal, clone the project.  You should clone using SSH.  Like so
 ```
 git@github.com:delveccj/belt.git
 ```
-Do an ```ls``
+Do an ```ls```
 
 ## Section: Adding Content
 
