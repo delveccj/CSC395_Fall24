@@ -1,5 +1,7 @@
 # Assignment 1: Getting Familiar with Git
 
+You will need to create a text document you submit to D2L to complete this assignment.
+
 ## Section 1: Intro Exercises
 
 1. **Create a Project**:
@@ -21,19 +23,28 @@ sudo apt update
 sudo apt install git
 ```
 3. Set your GitHub id and email:
-
+```
 git config --global user.name "Your Github User Name"
 git config --global user.email "your.email@example.com"
-
+```
 4. Install gh if it is not installed.  Here are the steps:
-
+```
 sudo apt update
 sudo apt install gh
-
+```
 5. Login to GitHub via gh
-
+```
 gh auth login
+```
+There are two ways to do this.  You will need to figure out which one you want to use.
 
+6. Confirm gh login
+
+Type the following command:
+```
+gh auth status
+```
+Copy and paste the output into the text file you will submit to D2L
 
 ## Section: Adding Content
 
