@@ -69,7 +69,7 @@ Do an ```ls``` and then ```cd``` into the directory.  Make certain the contents 
 4.  Do a ```git commit -m "My first commit"```
 5.  Do a ```git push```.  You may need to set the remote origin for this to work! It will be something like this: ```git remote add origin git@github.com:yourusername/yourrepository.git```
 
-## Section 4: Add a Python File**:
+## Section 5: Add a Python File:
 
 1. Create a Python file named `tokens.py`.
 2. In this file, write a function named `readandcount` that reads in a text file and counts the number of tokens (words).
