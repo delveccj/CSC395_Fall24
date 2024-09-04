@@ -27,7 +27,11 @@ At this point - you might have identified some challenges and tasks.  For exampl
 
 ### Resources:
 
-Your instructor 
+Your instructor has provided two resources to make this project easier!  You are going to need to install Docker on these machines.  Here are instructions on how to do this in Ubuntu Jammy.  Note, for a couple of steps you might see a warning - it can be ignored:
+
+https://chatgpt.com/share/7fa3ec8e-9646-4e72-ba0a-09d7b780ec0d
+
+You are also going to need a friend.  A seasoned professional who can work with 
 
 ### Section: Create a GitHub Project
 
