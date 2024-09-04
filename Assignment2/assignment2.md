@@ -10,7 +10,7 @@ You are the crack development team.  You have not failed yet to implement one of
 
 Look at the concept screen drawn out below — it's got the notes and what you need to get the job done. Your instructor understands the vision and can fill in some of the details.
 
-![Recipe Image](recipe.jpg)
+![Recipe Buidler Product Visions](concept.png)
 
 
 ### The Solution Must Be Completely Dockerized!
