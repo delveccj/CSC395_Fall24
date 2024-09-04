@@ -31,6 +31,10 @@ Your instructor has provided two resources to make this project easier!  You are
 
 https://chatgpt.com/share/7fa3ec8e-9646-4e72-ba0a-09d7b780ec0d
 
+Let's run our first Docker container:
+
+https://hub.docker.com/r/ollama/ollama
+
 You are also going to need a friend.  A seasoned professional who can work with 
 
 ### Section: Create a GitHub Project
