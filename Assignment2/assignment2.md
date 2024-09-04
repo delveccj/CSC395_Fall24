@@ -14,10 +14,20 @@ Look at the concept screen drawn out below.  The BD person drew out exactly what
 
 ## Challenges
 
-At this point - you might have identified some challenges and tasks.  
-### The Solution Must Be Completely Dockerized!
+At this point - you might have identified some challenges and tasks.  For example:
+
+1. UI Design - There is a web site shown in a browser.  Who can create UIs?
+2. Docker - What is that?  It seems important.
+3. Python Flask Container - This seems to be the web server.  Anyone have experience creating one of these?
+4. Ollama Container - A quick Google search shows it allows you to run LLMs.  So - how do we connect the web server to it?
+5. Message Passing - How are the messages passed back and forth?  For example, from the web browser to the server and so on.
+6. Decompose Into Tasks - How do we decomposed this diagram into tasks?
 
 ## Steps to Success
+
+### Resources:
+
+Your instructor 
 
 ### Section: Create a GitHub Project
 
