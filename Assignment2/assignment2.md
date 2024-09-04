@@ -2,7 +2,13 @@
 
 ## Intro
 
-Your business development person has done it again. He has hit the road and pitched a vision for a new project. He managed to get just enough funds for four weeks of development time for four to five developers.
+Your business development (BD) person has done it again. He has hit the road and pitched a vision for a new 
+project. He managed to get just enough funds for four weeks of development time for four to five developers.  
+The BD person has a dangerous understanding of technology and can pitch solutions that mostly use the technologies
+correctly.  He often leaves it to the devleopers to "fill in the details" and simply make stuff work.  
+
+You are the crack development team.  You have not failed yet to implement one of his product visions.  You intend
+to deliver once again!
 
 ### His Vision: The AI-Backed Recipes Maker!
 
