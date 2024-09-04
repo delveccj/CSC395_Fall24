@@ -8,11 +8,13 @@ You are the crack development team.  You have not failed yet to implement one of
 
 ### His Vision: The AI-Backed Recipes Maker!
 
-Look at the concept screen drawn out below — it's got the notes and what you need to get the job done. Your instructor understands the vision and can fill in some of the details.
+Look at the concept screen drawn out below.  The BD person drew out exactly what you need to build.  It's got the notes and what you need to get the job done - sort of. Your instructor understands the vision and can fill in some of the details.
 
 ![Recipe Buidler Product Visions](concept.png)
 
+## Challenges
 
+At this point - you might have identified some challenges and tasks.  
 ### The Solution Must Be Completely Dockerized!
 
 ## Steps to Success
