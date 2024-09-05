@@ -56,7 +56,7 @@ Task deliverables will be submitted to D2L.  A Dropbox will be created for each 
 
 ### Task 2: Create the Tickets
 
-You will have two weeks of development time to create a prototype that implements the prodcut vision.  The two weeks will begin the day Assignment 1 is due (September 17, 2024).  You schedule should have multiple milestones and tasks assigned to them.  For Task 2 you should perform the following activites.
+You will have two weeks of development time to create a prototype that implements the prodcut vision.  The two weeks will begin the day Assignment 1 is due (September 17, 2024).  Your schedule should have multiple milestones and tasks assigned to them.  For Task 2 you should perform the following activites.
 
 1. **Discuss the Vision**:
    - Your team needs to discuss what the vision means and how to implement it in code.
