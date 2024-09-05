@@ -37,7 +37,7 @@ Your instructor has provided resources to make this project easier!  You are goi
 
 Stop at Step 5, Substep 2 please!
 
-Let's run our first Docker container:
+Let's run our first Docker container.  This is the beauty of Docker - it is simple to run application environments:
 
 https://hub.docker.com/r/ollama/ollama
 
