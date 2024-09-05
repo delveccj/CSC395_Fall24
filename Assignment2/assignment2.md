@@ -197,11 +197,22 @@ Here are the sections the plan must have. Section 5 must have a professional dia
 
 
 ## Scoring Rubric
+### Scoring Rubric for Assignment 2
 
-| Item                                      | Hi Points                                         | Med Points                               | Low Points                               |
-|-------------------------------------------|---------------------------------------------------|------------------------------------------|------------------------------------------|
-| Tasks Created and Assigned to Milestones     | All tasks are clearly defined and appropriately assigned to milestones. | Most tasks are defined and assigned to milestones, but some lack clarity or are not properly aligned with milestones. | Few tasks are defined, and there is minimal alignment with milestones. |
-| GitHub Project Created with Collaborators Invited | GitHub project is created, and all team members, including the instructor, are successfully invited as collaborators. | GitHub project is created, but some collaborators are missing or not invited promptly. | GitHub project is created, but most collaborators are missing, or there was significant delay in inviting them. |
-| GitHub Landing Page Has Project Plan Listed Out | The project plan is thoroughly detailed on the GitHub landing page, including objectives, milestones, and team roles. | The project plan is present but lacks some details or clarity in objectives, milestones, or roles. | The project plan is poorly detailed or missing critical information on the GitHub landing page. |
-| Delivery of Project Kickoff Presentation  | The kickoff presentation is well-prepared, clearly presented, and covers all aspects of the project, including challenges and roles. | The presentation is delivered but may lack some detail, clarity, or coverage of challenges and roles. | The presentation is poorly prepared, lacks detail, or fails to adequately cover the project scope. |
+| **Item**                                             | **Hi Points (5)**                                   | **Med Points (3)**                                   | **Low Points (1)**                                   | **Points Awarded** |
+|------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|-------------------|
+| **Task 1: GitHub Project Setup**                     | Repo is private, all members and instructor invited; repo properly named as required | Repo created, but naming or member invitation is incomplete | Repo created, but major issues like incorrect privacy setting or missing collaborators |                   |
+| **Task 2: Tickets and Milestones**                   | All tasks created as GitHub tickets, organized into two clear sprints with proper milestones for progress and completion | Some tasks created, but missing key tickets or unclear milestones | Minimal tickets or milestones created, unstructured approach to task management |                   |
+| **Task 3: Written Project Plan**                     | Detailed, professional plan explaining architecture, tasks, team roles, and progress metrics | Some sections present but lacking detail, missing key parts of architecture or plan | Incomplete, unclear project plan missing key components or vague approach |                   |
+| **Task 4: Kickoff Brief Presentation**               | Well-prepared, timed 5-minute presentation covering all key aspects (plan, challenges, roles); questions handled effectively | Some parts presented well but lacking depth or clarity on key points | Incomplete presentation, poor timing or unclear plan, missing key elements |                   |
+| **Task 5: Communication Archive**                    | Regular communication in Discord, comprehensive chat archive submitted, all team members use ChatGPT sessions | Communication occurred but inconsistently or missing some team members’ participation | Minimal communication or missing proof of chat archives, lack of involvement from multiple team members |                   |
 
+### Total Points for Each Task
+
+| **Task**                                | **Hi Points (Max)** | **Med Points** | **Low Points** |
+|-----------------------------------------|---------------------|----------------|----------------|
+| Task 1: GitHub Project Setup            | 5                   | 3              | 1              |
+| Task 2: Tickets and Milestones          | 5                   | 3              | 1              |
+| Task 3: Written Project Plan            | 5                   | 3              | 1              |
+| Task 4: Kickoff Brief Presentation      | 5                   | 3              | 1              |
+| Task 5: Communication Archive           | 5                   | 3              | 1              |
