@@ -54,6 +54,8 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 
 ### Section: Create the Tickets
 
+You will have two weeks of development time to complete Assignment 2.  The two weeks will begin the day Assignment 1 is due (September 17, 2024).  You schedule should have multiple milestones and tasks assigned to them.
+
 1. **Discuss the Vision**:
    - Your team needs to discuss what the vision means and how to implement it in code.
 2. **Create the Tickets**:
@@ -61,9 +63,9 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 3. **Organize into Milestones**:
    - Add the tickets to two one-week sprints.
 4. **First Week Milestone**:
-   - Ensure the first week ends with a milestone that represents a significant progress checkpoint.
+   - Minimally, ensure the first week ends with a milestone that represents a significant progress checkpoint.
 5. **Final Project Milestone**:
-   - The second week should culminate with the final product ready for review.
+   - Minimally, the second week should culminate with the final product ready for review.
 
 ### Section: Project Plan
 
