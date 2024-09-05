@@ -31,7 +31,7 @@ At this point - you might have identified some challenges and tasks.  For exampl
 
 ### Resources:
 
-Your instructor has provided two resources to make this project easier!  You are going to need to install Docker on these machines.  Here are instructions on how to do this in Ubuntu Jammy.  Note, for a couple of steps you might see a warning - it can be ignored:
+Your instructor has provided resources to make this project easier!  You are going to need to install Docker and docker-compose on these machines.  We will do this together.  Here are instructions on how to do this in Ubuntu Jammy.  Note, for a couple of steps you might see a warning - it can be ignored:
 
 [https://chatgpt.com/share/7fa3ec8e-9646-4e72-ba0a-09d7b780ec0d](https://chatgpt.com/share/c7bbf674-261b-47cf-ae9c-ba177684f1c8)
 
@@ -41,7 +41,7 @@ Let's run our first Docker container:
 
 https://hub.docker.com/r/ollama/ollama
 
-You are also going to need a friend.  A seasoned professional who can work with 
+Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker in class.  But you need to have confidence you can use these technologies!
 
 ### Section: Create a GitHub Project
 
