@@ -49,6 +49,7 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 
 1. **Make it Private**: 
    - Someone from your team must create a private GitHub repository.
+   - It must be named:  CSC395_Team#  where # is your teams number.
    - Invite the other team members and the instructor as collaborators.
    - You do not need to restrict the project to only accept pull requests initially.  We may add that later!
 
