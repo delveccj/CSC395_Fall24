@@ -199,7 +199,7 @@ Here are the sections the plan must have. Section 5 must have a professional dia
 ## Scoring Rubric
 ### Scoring Rubric for Assignment 2
 
-| **Item**                                             | **Hi Points (5)**                                   | **Med Points (3)**                                   | **Low Points (1)**                                   | **Points Awarded** |
+| **Item**                                             | **Hi Points**                                   | **Med Points**                                   | **Low Points**                                   | **Points Awarded** |
 |------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|-------------------|
 | **Task 1: GitHub Project Setup**                     | Repo is private, all members and instructor invited; repo properly named as required | Repo created, but naming or member invitation is incomplete | Repo created, but major issues like incorrect privacy setting or missing collaborators |                   |
 | **Task 2: Tickets and Milestones**                   | All tasks created as GitHub tickets, organized into two clear sprints with proper milestones for progress and completion | Some tasks created, but missing key tickets or unclear milestones | Minimal tickets or milestones created, unstructured approach to task management |                   |
@@ -212,7 +212,7 @@ Here are the sections the plan must have. Section 5 must have a professional dia
 | **Task**                                | **Hi Points (Max)** | **Med Points** | **Low Points** |
 |-----------------------------------------|---------------------|----------------|----------------|
 | Task 1: GitHub Project Setup            | 5                   | 3              | 1              |
-| Task 2: Tickets and Milestones          | 5                   | 3              | 1              |
-| Task 3: Written Project Plan            | 5                   | 3              | 1              |
+| Task 2: Tickets and Milestones          | 10                   | 5              | 2              |
+| Task 3: Written Project Plan            | 10                   | 5              | 2              |
 | Task 4: Kickoff Brief Presentation      | 5                   | 3              | 1              |
 | Task 5: Communication Archive           | 5                   | 3              | 1              |
