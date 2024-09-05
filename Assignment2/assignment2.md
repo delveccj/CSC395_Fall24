@@ -82,7 +82,7 @@ You will have two weeks of development time to create a prototype that implement
 ### Task 5: Archive of Communicaiton and Research Acitivites
    - A Discord room has been created for each team.  The team must use this room and show demonstrable proof teammates communicated often on the progress of the project.  It is a common practice for development efforts to have chat rooms where chats themselves become important documentation archives.
    - You will end up using a chat agent to find information and answer questions and develop code examples.  This is perfectly fine.  However, you must do the following:
-   - Each team member must obtain an account with OpenAI
+   - Each team member must obtain an account with ChatGPT OpenAI
    - They must create a chat named 
 
 
