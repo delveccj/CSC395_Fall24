@@ -43,11 +43,14 @@ https://hub.docker.com/r/ollama/ollama
 
 Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker in class.  But you need to have confidence you can use these technologies!
 
+## Assignment 2 Tasks
+
 ### Section: Create a GitHub Project
 
 1. **Make it Private**: 
    - Someone from your team must create a private GitHub repository.
    - Invite the other team members and the instructor as collaborators.
+   - You do not need to restrict the project to only accept pull requests initially.  We may add that later!
 
 ### Section: Create the Tickets
 
@@ -168,7 +171,7 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 
 | Item                                      | Hi Points                                         | Med Points                               | Low Points                               |
 |-------------------------------------------|---------------------------------------------------|------------------------------------------|------------------------------------------|
-| Tasks Created and Assigned to Sprints     | All tasks are clearly defined and appropriately assigned to sprints with milestones. | Most tasks are defined and assigned to sprints, but some lack clarity or are not properly aligned with milestones. | Few tasks are defined, and there is minimal alignment with sprints or milestones. |
+| Tasks Created and Assigned to Milestones     | All tasks are clearly defined and appropriately assigned to milestones. | Most tasks are defined and assigned to milestones, but some lack clarity or are not properly aligned with milestones. | Few tasks are defined, and there is minimal alignment with milestones. |
 | GitHub Project Created with Collaborators Invited | GitHub project is created, and all team members, including the instructor, are successfully invited as collaborators. | GitHub project is created, but some collaborators are missing or not invited promptly. | GitHub project is created, but most collaborators are missing, or there was significant delay in inviting them. |
 | GitHub Landing Page Has Project Plan Listed Out | The project plan is thoroughly detailed on the GitHub landing page, including objectives, milestones, and team roles. | The project plan is present but lacks some details or clarity in objectives, milestones, or roles. | The project plan is poorly detailed or missing critical information on the GitHub landing page. |
 | Delivery of Project Kickoff Presentation  | The kickoff presentation is well-prepared, clearly presented, and covers all aspects of the project, including challenges and roles. | The presentation is delivered but may lack some detail, clarity, or coverage of challenges and roles. | The presentation is poorly prepared, lacks detail, or fails to adequately cover the project scope. |
