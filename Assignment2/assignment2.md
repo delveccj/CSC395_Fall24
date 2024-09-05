@@ -8,7 +8,7 @@ Your business development (BD) person has done it again. He has hit the road and
 
 You are the crack development team.  You have not failed yet to implement one of his product visions - no matter how half-baked they are.  You intend to deliver once again!
 
-This assignment has you 
+In this assignment you setup the plan to deliver on your BD person's vision.  No software engineering project is successful without a plan that identifies:  1. What tasks will be worked when, 2. Milestones, 3. Who will work the tasks, and 3. An end product.
 
 ### His Vision: The AI-Backed Recipes Maker!
 
