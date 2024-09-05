@@ -90,7 +90,7 @@ You will have two weeks of development time to create a prototype that implement
    - The URL to the chat session must be supplied to the instructor.  It should be included in both the Project Plan and the (eventual) final report updated with all the content.
 
 
-The software engineering community (and every other discipline!) is at an inflection point in history.  There will be the way work was performed before LLMs (legacy workflow systems) and the way it was performed after LLMs.  We, eveyrone, is learning how to use this technology.  Students need to walk a fine line where they learn from the LLM and not have it simply provide answers for which they have no understanding.  The instructor wants to help guide students on how to use technologies like ChatGPT effectively, so they are able to answer questions but also learn the crtical skills they need.
+The software engineering community (and every other discipline!) is at an inflection point in history.  There will be the way work was performed before LLMs (legacy workflow systems) and the way it was performed after LLMs.  Eveyrone is learning how to use this technology.  Students need to walk a fine line where they (hoepfully) learn from the LLM and not have it simply provide answers for which they have no understanding.  The instructor wants to help guide students on how to use technologies like ChatGPT effectively, so they are able to answer questions but also learn the crtical skills they need.
 
 
 ## Written Project Template
