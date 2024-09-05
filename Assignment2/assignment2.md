@@ -33,7 +33,7 @@ Your instructor has provided two resources to make this project easier!  You are
 
 [https://chatgpt.com/share/7fa3ec8e-9646-4e72-ba0a-09d7b780ec0d](https://chatgpt.com/share/c7bbf674-261b-47cf-ae9c-ba177684f1c8)
 
-Stop at step 2 please!
+Stop at Step 5, Substep 2 please!
 
 Let's run our first Docker container:
 
@@ -53,7 +53,7 @@ You are also going to need a friend.  A seasoned professional who can work with
    - Your team needs to discuss what the vision means and how to implement it in code.
 2. **Create the Tickets**:
    - Break down the project into manageable tasks and create GitHub issues (tickets) for each.
-3. **Organize into Sprints**:
+3. **Organize into Milestones**:
    - Add the tickets to two one-week sprints.
 4. **First Week Milestone**:
    - Ensure the first week ends with a milestone that represents a significant progress checkpoint.
