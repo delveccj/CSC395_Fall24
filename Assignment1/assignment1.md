@@ -48,7 +48,7 @@ Copy and paste the output into the text file you will submit to D2L
 
 ## Section 3: Cloning the Project
 
-From the terminal, clone the project.  You should clone using SSH.  Like so
+From the terminal, clone the project.  You should clone using HTTPS.  Like so
 ```
 git clone git@github.com:yourusername/yourrepository.git
 ```
