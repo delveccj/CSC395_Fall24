@@ -110,7 +110,7 @@ Below is a template for the project plan.  It has been filled in with some examp
 
   **POC: email address of a team member**
 
-  Here are the sections the plan must have. Section 5 must have a professional diagram of the components of your system.
+Here are the sections the plan must have. Section 5 must have a professional diagram of the components of your system.
 
 ## 1. Objective
 
@@ -190,7 +190,11 @@ Below is a template for the project plan.  It has been filled in with some examp
 
 ## 10. Communication Plan
 - **Regular Meetings**: Weekly check-ins to discuss progress, challenges, and next steps.
-- **Collaboration Tools**: Use GitHub Issues and Project Boards to track tasks and progress. Communication via Slack, Teams, or email as needed.
+- **Collaboration Tools**: Use GitHub Issues and Project Boards to track tasks and progress. Communication via Discord or email as needed.
+
+## 11. OpenAI ChatGPT URLs
+- This should contain a listing of the chat rooms each team member has used to assist in development of this project.
+
 
 ## Scoring Rubric
 
