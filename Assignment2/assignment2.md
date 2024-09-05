@@ -93,8 +93,24 @@ You will have two weeks of development time to create a prototype that implement
 The software engineering community (and every other discipline!) is at an inflection point in history.  There will be the way work was performed before LLMs (legacy workflow systems) and the way it was performed after LLMs.  Eveyrone is learning how to use this technology.  Students need to walk a fine line where they (hoepfully) learn from the LLM and not have it simply provide answers for which they have no understanding.  The instructor wants to help guide students on how to use technologies like ChatGPT effectively, so they are able to answer questions but also learn the crtical skills they need.
 
 
-## Written Project Template
-- **Project Name**: *Team Name*
+## Project Plan Template
+
+Below is a template for the project plan.  It has been filled in with some example content for your review.  Your plan must:
+
+- Be 11 point font, Times New Roman.
+- Spacing can be 1.5
+- Must have a footer filled in with Team name, Project Plan, and page number.
+- Must have a cover page that includes 
+
+  **Team Name**
+  **Project Plan for Recipe Maker**
+  **Date Submitted**
+  **POC: email address of a team member**
+
+  Here are the sections the plan must have. Section 5 must have a professional diagram of the components of your system.
+
+## 1. Objective
+
 - **Objective**: Develop a web application that allows users to generate AI-assisted meeting notes, summaries, or brainstorming ideas using the Ollama API. The application will be built using Flask, Dockerized for deployment, and integrated with the Ollama API for AI-driven features.
 
 ## 2. Scope
@@ -146,7 +162,6 @@ The software engineering community (and every other discipline!) is at an inflec
 ## 6. Development Workflow
 - **Version Control**: Use Git and GitHub for version control. Each team member should work on separate branches and submit pull requests for review.
 - **Code Reviews**: Implement code reviews before merging changes into the main branch.
-- **Continuous Integration**: Optionally, set up a CI pipeline (using GitHub Actions) to automate testing of the application on each commit.
 - **Testing**: Develop test cases for both the backend (e.g., API integration) and frontend (e.g., UI functionality). Ensure tests run successfully within the Docker container.
 
 ## 7. Risk Management
