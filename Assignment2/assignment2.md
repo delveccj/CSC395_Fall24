@@ -77,7 +77,7 @@ You will have two weeks of development time to create a prototype that implement
 ### Task 4: Create a Kickoff Brief
 
 **Kickoff Presentation**:
-   - Prepare a five-minute (timed!) kickoff presentation.
+   - Prepare a five-minute (timed!) kickoff presentation that includes Powerpoint slides.
    - One person from the team will describe the project plan, challenges, team roles, and expected outcomes.
    - The plan will be presented in class on Septemebr 17.  Each team will present its plan.  Expect questions along the way - as though the BD person were in the room.
 
