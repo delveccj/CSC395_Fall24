@@ -45,16 +45,16 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 
 ## Assignment 2 Tasks
 
-### Section: Create a GitHub Project
+### Task 1: Create a GitHub Project
 
 - Someone from your team must create a private GitHub repository.
 - It must be named:  CSC395_Team#  where # is your teams number.
 - Invite the other team members and the instructor as collaborators.
 - You do not need to restrict the project to only accept pull requests initially.  We may add that later!
 
-### Section: Create the Tickets
+### Task 2: Create the Tickets
 
-You will have two weeks of development time to complete Assignment 2.  The two weeks will begin the day Assignment 1 is due (September 17, 2024).  You schedule should have multiple milestones and tasks assigned to them.
+You will have two weeks of development time to create a prototype that implements the prodcut vision.  The two weeks will begin the day Assignment 1 is due (September 17, 2024).  You schedule should have multiple milestones and tasks assigned to them.  For Task 2 you should perform the following activites.
 
 1. **Discuss the Vision**:
    - Your team needs to discuss what the vision means and how to implement it in code.
@@ -67,29 +67,27 @@ You will have two weeks of development time to complete Assignment 2.  The two w
 5. **Final Project Milestone**:
    - Minimally, the second week should culminate with the final product ready for review.
 
-### Section: Project Plan
+### Task 3: Create Written Project Plan
 
-1. **Document the Plan**:
-   - Create a document that explains the architecture, the development plan, how the work will proceed, and how progress will be measured.
+   - Create a professional document that explains the architecture, the development plan, how the work will proceed, and how progress will be measured.
+   - The minimally required sections of the plan are included at bottom.
+   
+### Task 4: Create a Kickoff Brief
 
-### Section: Kickoff and Conclusion Brief
-
-1. **Kickoff Presentation**:
-   - Prepare a five-minute kickoff presentation.
+**Kickoff Presentation**:
+   - Prepare a five-minute (timed!) kickoff presentation.
    - One person from the team will describe the project plan, challenges, team roles, and expected outcomes.
-2. **Conclusion Brief**:
-   - Prepare a conclusion brief that demos the final product and lists the challenges overcome along the way.
+   - The plan will be presented in class on Septemebr 17.  Each team will present its plan.  Expect questions along the way - as though the BD person were in the room.
 
-### Section: Docker
+### Task 5: Archive of Communicaiton and Research Acitivites
+   - A Discord room has been created for each team.  The team must use this room and show demonstrable proof teammates communicated often on the progress of the project.  It is a common practice for development efforts to have chat rooms where chats themselves become important documentation archives.
+   - You will end up using a chat agent to find information and answer questions and develop code examples.  This is perfectly fine.  However, you must do the following:
+   - Each team member must obtain an account with OpenAI
+   - They must create a chat named 
 
-1. **Dockerize the Solution**:
-   - Ensure the solution runs as a Docker container.
-   - Provide a `docker-compose.yml` that will build the environment and allow the Instructor to run the application easily.
-  
-# Project Plan: Team Collaboration Dashboard
 
-## 1. Project Overview
-- **Project Name**: *Team Collaboration Dashboard*
+## Written Project Template
+- **Project Name**: *Team Name*
 - **Objective**: Develop a web application that allows users to generate AI-assisted meeting notes, summaries, or brainstorming ideas using the Ollama API. The application will be built using Flask, Dockerized for deployment, and integrated with the Ollama API for AI-driven features.
 
 ## 2. Scope
