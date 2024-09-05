@@ -8,6 +8,8 @@ Your business development (BD) person has done it again. He has hit the road and
 
 You are the crack development team.  You have not failed yet to implement one of his product visions - no matter how half-baked they are.  You intend to deliver once again!
 
+This assignment has you 
+
 ### His Vision: The AI-Backed Recipes Maker!
 
 Look at the concept screen drawn out below.  The BD person drew out exactly what you need to build.  It's got the notes and what you need to get the job done - sort of. Your instructor understands the vision and can fill in some of the details.
