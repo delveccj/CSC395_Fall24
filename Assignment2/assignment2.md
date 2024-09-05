@@ -109,6 +109,7 @@ Below is a template for the project plan.  It has been filled in with some examp
   **Date Submitted**
 
   **POC: email address of a team member**
+- Must be minally five pages not including the cover page.
 
 Here are the sections the plan must have. Section 5 must have a professional diagram of the components of your system.
 
