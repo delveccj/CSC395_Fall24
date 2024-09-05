@@ -50,7 +50,7 @@ Task deliverables will be submitted to D2L.  A Dropbox will be created for each 
 ### Task 1: Create a GitHub Project
 
 - Someone from your team must create a private GitHub repository.
-- It must be named:  CSC395_Team#  where # is your teams number.
+- It must be named:  CSC395_Team#  where # is your team's number.
 - Invite the other team members and the instructor as collaborators.
 - You do not need to restrict the project to only accept pull requests initially.  We may add that later!
 
