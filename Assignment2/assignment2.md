@@ -83,7 +83,12 @@ You will have two weeks of development time to create a prototype that implement
    - A Discord room has been created for each team.  The team must use this room and show demonstrable proof teammates communicated often on the progress of the project.  It is a common practice for development efforts to have chat rooms where chats themselves become important documentation archives.
    - You will end up using a chat agent to find information and answer questions and develop code examples.  This is perfectly fine.  However, you must do the following:
    - Each team member must obtain an account with ChatGPT OpenAI
-   - They must create a chat named 
+   - They must create a chat session named discordusername_Assignment2
+   - Any discussions relative to this project should occur in that chat session
+   - The URL to the chat session must be supplied to the instructor.  It should be included in both the Project Plan and the (eventual) final report updated with all the content.
+
+
+The software engineering community (and every other discipline!) is at an inflection point in history.  There will be the way work was performed before LLMs (legacy workflow systems) and the way it was performed after LLMs.  We, eveyrone, is learning how to use this technology.  Students need to walk a fine line where they learn from the LLM and not have it simply provide answers for which they have no understanding.  The instructor wants to help guide students on how to use technologies like ChatGPT effectively, so they are able to answer questions but also learn the crtical skills they need.
 
 
 ## Written Project Template
