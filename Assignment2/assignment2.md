@@ -33,7 +33,7 @@ At this point - you might have identified some challenges and tasks.  For exampl
 
 Your instructor has provided resources to make this project easier!  You are going to need to install Docker and docker-compose on these machines.  We will do this together.  Here are instructions on how to do this in Ubuntu Jammy.  Note, for a couple of steps you might see a warning - it can be ignored:
 
-[https://chatgpt.com/share/7fa3ec8e-9646-4e72-ba0a-09d7b780ec0d](https://chatgpt.com/share/c7bbf674-261b-47cf-ae9c-ba177684f1c8)
+https://chatgpt.com/share/c7bbf674-261b-47cf-ae9c-ba177684f1c8
 
 Stop at Step 5, Substep 2 please!
 
