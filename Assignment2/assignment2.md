@@ -45,6 +45,8 @@ Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker i
 
 ## Assignment 2 Tasks
 
+Task deliverables will be submitted to D2L.  A Dropbox will be created for each team once team membership has been decided.
+
 ### Task 1: Create a GitHub Project
 
 - Someone from your team must create a private GitHub repository.
