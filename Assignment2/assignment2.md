@@ -43,6 +43,10 @@ https://hub.docker.com/r/ollama/ollama
 
 Now, let's move onto Step 5, Substep 2.  We will do more exercises with Docker in class.  But you need to have confidence you can use these technologies!
 
+Need a template for what the code base will look like?  This will help you out (a bunch!):
+
+https://github.com/justinGmail/ZeroCostEngineering
+
 ## Assignment 2 Tasks
 
 Task deliverables will be submitted to D2L.  A Dropbox will be created for each team once team membership has been decided.
