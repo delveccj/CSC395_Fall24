@@ -168,11 +168,10 @@ In this example:
 
 ---
 
-This **baby integration test** introduces students to testing full-system functionality, ensuring their Flask server and Ollama client are working together as expected. It's simple, automated, and serves as an introduction to more complex integration testing in the future.
+This **baby integration test** introduces you to testing full-system functionality, ensuring their Flask server and Ollama client are working together as expected. It's simple, automated, and serves as an introduction to more complex integration testing in the future.
 
 ### **Item 4: Retrospective Meeting (End of Sprint 1)**
 
-#### **Writeup for Students:**
 At the end of Sprint 1, your team will participate in a **10-minute retrospective meeting** with the instructor. The goal of this meeting is to reflect on your team’s progress, discuss what’s working well, what challenges you've faced, and how you plan to improve for Sprint 2. This is a critical part of the **agile process**, allowing teams to continuously improve.
 
 **During the meeting, be prepared to discuss:**
@@ -208,7 +207,6 @@ This rubric adds accountability by requiring the team to document their reflecti
 
 ### **Item 5: Final Presentation Meeting**
 
-#### **Writeup for Students:**
 In the **final presentation meeting**, your team will showcase the outcome of your project, highlighting what worked, what didn’t, and the lessons learned throughout the development process. This is an opportunity to demonstrate the final product to the class and instructor, provide insights into your team’s journey, and reflect on how you overcame challenges.
 
 Your presentation must include:
@@ -248,4 +246,4 @@ Your presentation must include:
 
 ---
 
-This rubric ensures that the final presentation reflects the team’s effort throughout the project and highlights their ability to deliver a working solution, reflect on the process, and effectively communicate their results. Including the **data flow diagram** and **README.md** helps reinforce the importance of documentation, while the **live demo** ensures that students have a tangible, functional product to showcase.
+This rubric ensures that the final presentation reflects the team’s effort throughout the project and highlights their ability to deliver a working solution, reflect on the process, and effectively communicate their results. Including the **data flow diagram** and **README.md** helps reinforce the importance of documentation, while the **live demo** ensures that you have a tangible, functional product to showcase.
