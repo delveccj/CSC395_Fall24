@@ -63,7 +63,7 @@ You first need to understand what versions of python and pip you have installed.
 
    ```bash
    ls -al /usr/bin/python*
-   ls -al /usr/bing/pip*
+   ls -al /usr/bin/pip*
    ```
 If you do not have pip installed you will need to install it.  Like so:
 
