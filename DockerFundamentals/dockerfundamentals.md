@@ -1,5 +1,17 @@
 ### **Docker and Flask Tutorial for Students**
 
+**Tips**
+
+If you get permission denied when you try to run docker, please do the following.
+
+1. Run this command:
+
+```bash
+sudo usermod -aG docker $USER
+```
+
+2. Restart the machine and login.  It should work! 
+
 ---
 
 ### **Goal:**
