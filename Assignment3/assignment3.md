@@ -213,7 +213,7 @@ Your presentation must include:
 1. **Project Overview & Goals**:
    - Begin by recapping the project's goal (The AI-Backed Recipe Maker), and provide a brief overview of the project scope.
 
-2. **Data Flow Diagram (In README.md)**:
+2. **Data Flow or System Architecture Diagram (In README.md)**:
    - Include a **basic data flow diagram** in your presentation and project’s `README.md` file. This diagram should illustrate how data moves through your system—from user input, through the Flask server, to the Ollama API, and back to the user.
    - The `README.md` should also contain clear instructions for how to **run the project**, including any dependencies (e.g., Docker, Python libraries) and setup steps.
 
