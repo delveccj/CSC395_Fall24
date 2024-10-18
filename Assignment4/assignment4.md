@@ -1,72 +1,32 @@
-# Assignment 4: Final Presentation, Report, and Demo
+# Assignment 4: Project Two - Your On Your Own!
 
-## Objective
+## **Personas & Scenarios Document**
 
-In this final assignment, your team will consolidate your work into a polished presentation, a comprehensive report, and a live demo of your project. This is your opportunity to showcase the product you've developed, explain your design and development process, and ensure that others can understand and run your application.
+You should submit a Word document (it can exported as a PDF) with these sections in it.  You should include in the header of the document the name of your team and the footer should have page numbers.  The document should list the names and contact information of your members at the top.
 
-## Requirements
+### **What the Document Should Include**  
 
-### 1. Final Presentation
+1. **Project Overview**  
+   - A short summary of the product vision and who it’s designed for.  This should be minimally a paragraph in length.
 
-- **PowerPoint Presentation**:
-  1. Create a PowerPoint presentation that summarizes your project. 
-  2. The presentation should include the following sections:
-     - **Project Overview**: Brief introduction to the problem you aimed to solve and the solution you developed.
-     - **Features**: Highlight the main features of your application.
-     - **Architecture**: A simplified overview of your project's architecture, including how the frontend, backend, and any third-party APIs (like Ollama) interact.
-     - **Development Process**: Key steps in your development process, including challenges faced and how they were overcome.
-     - **Results**: Any metrics, user feedback, or outcomes that demonstrate the success of your project.
-     - **Future Work**: Suggestions for future improvements or features that could be added.
+2. **Personas (minimally two personas with a maximum of five)**  
+   - **Name, age, occupation, lifestyle:** Who is this user?  
+   - **Goals:** What are they trying to accomplish with the product?  
+   - **Pain points:** What challenges or frustrations do they have?  
+   - **Motivations:** Why would they use the product?
 
-- **Upload to GitHub**:
-  1. Save your PowerPoint presentation as `Final_Presentation.pptx`.
-  2. Upload this file to the `docs/` folder of your GitHub repository.
+3. **User Scenarios (minimally two scenarios per persona)**  
+   - **Situation:** What is the user doing when they interact with the product?  
+   - **Goal:** What do they need to accomplish?  
+   - **Success Criteria:** How does the product help the user succeed?  
 
-### 2. Final Report
+4. **User Stories (minimally six stories - ideally 10)**  
+   - These are pretty simple - they to help you have traceability to the features you develop:  
+     - **“As a [user], I want to [goal], so that [reason].”**
 
-- **Report Document**:
-  1. Create a comprehensive final report that details your project. The report should be written in clear, professional language and include the following sections:
-     - **Introduction**: Introduce the project, the problem it solves, and the purpose of the application.
-     - **Project Objectives**: List the main objectives of your project, including both technical goals and user goals.
-     - **Design and Architecture**:
-       - **System Architecture**: Describe the overall architecture of your system, including diagrams where necessary.
-       - **Technology Stack**: Explain the tools, languages, and frameworks used in the project.
-       - **APIs and Integration**: Detail how the Ollama API and any other external services are integrated.
-     - **Development Process**:
-       - **Task Management**: Explain how tasks were managed, including sprint planning, ticket management, and issue tracking.
-       - **Branching Strategy**: Describe your approach to branching and merging in GitHub.
-       - **Testing**: Summarize your testing process, including unit tests, integration tests, and how bugs were tracked and resolved.
-     - **Challenges and Solutions**: Discuss any major challenges your team encountered and how they were addressed.
-     - **Final Product**: Describe the final state of the application, including its main features and how they meet the project objectives.
-     - **User Guide**: Provide a brief guide on how to use the application, including screenshots where applicable.
-     - **Conclusion and Future Work**: Reflect on what was achieved and suggest potential future enhancements.
+---
 
-- **Upload to GitHub**:
-  1. Save your final report as `Final_Report.pdf`.
-  2. Upload this file to the `docs/` folder of your GitHub repository.
-
-### 3. Demo and Instructions
-
-- **Live Demo**:
-  1. Prepare a live demo of your application that demonstrates its key features and functionality.
-  2. The demo should be polished and well-rehearsed to showcase your project effectively.
-
-- **Installation and Running Instructions**:
-  1. Create a `README.md` in the root of your GitHub repository that includes:
-     - **Setup Instructions**: Step-by-step guide on how to clone the repository, set up the environment, and run the application.
-     - **Docker Instructions**: Detailed instructions on how to use the `docker-compose.yml` file to build and run the application within a Docker container.
-     - **Troubleshooting**: Common issues and solutions for running the application.
-     - **Usage Guide**: Basic instructions on how to use the application once it's up and running, including how to access the main features.
-
-- **Upload to GitHub**:
-  1. Ensure all necessary files, including the `docker-compose.yml`, `README.md`, and any other supporting scripts, are pushed to the repository.
-  2. The instructor should be able to follow your instructions to clone, set up, and run your application without additional assistance.
-
-## Grading Rubric
-
-| Item                                | Hi Points                                                    | Med Points                                                 | Low Points                                                 |
-|-------------------------------------|--------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|
-| PowerPoint Presentation             | Well-structured, visually appealing, and covers all required sections in detail. | Covers all required sections, but lacks visual appeal or depth in some areas. | Incomplete or poorly structured presentation with missing sections. |
-| Final Report                        | Comprehensive, well-written, and includes all required sections with detailed explanations and diagrams. | Covers all required sections, but lacks detail or clarity in some areas. | Incomplete or poorly written report with missing sections or insufficient detail. |
-| Demo and Installation Instructions  | Demo is smooth, instructions are clear and allow the instructor to easily set up and run the application. | Demo is complete, but instructions are unclear or require some troubleshooting to follow. | Demo is incomplete or instructions are missing, unclear, or lead to setup failure. |
-
+## **Why This Exercise?**  
+- **Clarifies project goals** by focusing on **real-world users and use cases**.
+- Provides a solid foundation for **design, feature prioritization, and development** in the coming weeks.
+- So that teams will have **a concrete document** to guide them throughout the project.
