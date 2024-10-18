@@ -1,4 +1,4 @@
-# Assignment 4: Project Two - Your On Your Own!
+# Assignment 4: Project Two - Developing a Project Guide!
 
 ## **Personas & Scenarios Document**
 
