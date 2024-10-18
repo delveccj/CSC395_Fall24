@@ -6,7 +6,7 @@ You should submit a Word document (it can exported as a PDF) with these sections
 
 ### **What the Document Should Include**  
 
-1. **Project Overview**
+1. **Project Overview** (1 point)
    - A short summary of the product vision and who it’s designed for.  This should be minimally a paragraph in length.
 
 2. **Personas (minimally two personas with a maximum of five)** (8 points) 
