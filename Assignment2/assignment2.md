@@ -2,7 +2,7 @@
 
 Note: This lab exercise will have a higher point total than Assignment 1 as it is much more complex!
 
-Links to Team projects here!
+Links to Team projects here! :rocket:
 
 - https://github.com/atteap/CSC395_Team1
 - https://github.com/NeightBorusowski/CSC395_Team2
