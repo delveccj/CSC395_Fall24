@@ -2,7 +2,7 @@
 
 ## **Personas & Scenarios Document**
 
-You should submit a Word document (it can exported as a PDF) with these sections in it.  You should include in the header of the document the name of your team and the footer should have page numbers.  The document should list the names and contact information of your members at the top.
+You should submit a Word document (it can exported as a PDF) with these sections in it. A D2L dropbox has been established for this document. You should include in the header of the document the name of your team and the footer should have page numbers.  The document should list the names and contact information of your members at the top.
 
 ### **What the Document Should Include**  
 
