@@ -3,7 +3,12 @@
 Note: This lab exercise will have a higher point total than Assignment 1 as it is much more complex!
 
 Links to Team projects here!
-https://github.com/atteap/CSC395_Team1
+
+- https://github.com/atteap/CSC395_Team1
+- https://github.com/NeightBorusowski/CSC395_Team2
+- https://github.com/JoePugs/CSC395_Team3
+- https://github.com/CynthDonner/CSC395_Team4
+- https://github.com/jarod4hunt/CSC395_Team-5
 
 
 ## Intro
