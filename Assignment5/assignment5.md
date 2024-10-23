@@ -1,174 +1,154 @@
-# Assignment 5: Individual CI/CD Pipeline Setup and Docker Deployment
 
-## Objective
+# **Assignment 5: Kickoff Document and Presentation for Student Identified Projects**  
 
-In this assignment, you will take the project your group developed and make it your own. You will clone the project into your personal GitHub space, set up a CI/CD pipeline using GitHub Actions, run the tests, and push the final Docker container to DockerHub. This assignment will give you practical experience with continuous integration, continuous deployment, and Docker.
+## **Assignment Overview**  
 
-## Requirements
+Your team has selected a project idea that will be developed over **three sprints**. The purpose of this assignment is to prepare a **kickoff document and presentation** that outlines your project plan and communicates the key elements necessary for successful execution.
 
-### 1. Clone the Project into Your Personal Space
+This **document and presentation** will guide your development process and serve as a blueprint throughout the project lifecycle. Your **kickoff presentation** will be delivered to the instructor and peers to gain feedback and ensure alignment before coding begins.
 
-- **Clone the Repository**:
-  1. Go to your group's GitHub repository.
-  2. Fork the repository to create a copy under your personal GitHub account.
-  3. Clone the forked repository to your local machine:
-     ```bash
-     git clone https://github.com/YourUsername/YourRepositoryName.git
-     ```
+---
 
-- **Rename the Project**:
-  1. After cloning the repository, rename it locally and on GitHub to reflect that it is now your personal project.
-  2. Update any references to the old project name within the code, `README.md`, and other documentation files.
+## **Kickoff Document Requirements**  
 
-- **Push the Renamed Project to GitHub**:
-  1. Update the remote URL if you renamed the repository:
-     ```bash
-     git remote set-url origin https://github.com/YourUsername/NewRepositoryName.git
-     ```
-  2. Push the renamed repository back to GitHub:
-     ```bash
-     git push origin main
-     ```
+Your team must create a **Kickoff Document** that includes the following sections:
 
-### 2. Hook Up a CI/CD Pipeline in GitHub
+---
 
-- **Set Up GitHub Actions**:
-  1. Go to your renamed repository on GitHub.
-  2. Navigate to the **"Actions"** tab.
-  3. Click on **"Set up a workflow yourself"** or select a pre-built workflow template to get started.
-  4. Create a new `.github/workflows/ci.yml` file in your repository.
+### **1. Project Overview**  
+- **Project Name**: Provide a meaningful title for your project.  
+- **Project Description**: Briefly describe the problem your project aims to solve.  
+- **Target Users/Customers**: Identify the primary users or audience. The user persona and scenario document will be very helpful for this task.  
 
-- **Basic CI/CD Workflow**:
-  1. Define a basic workflow that runs whenever you push changes to the `main` branch:
-     ```yaml
-     name: CI/CD Pipeline
+---
 
-     on:
-       push:
-         branches:
-           - main
+### **2. Technology Stack**  
+- **Languages, Tools, and Frameworks**: List the specific technologies your team will use.  
+  Example: Python Flask, React, SQLite, Docker, GitHub Actions, etc.  
+- **Justification**: Provide a detailed explanation for **why these technologies were chosen**.
 
-     jobs:
-       build:
-         runs-on: ubuntu-latest
-         
-         steps:
-           - name: Checkout code
-             uses: actions/checkout@v3
+---
 
-           - name: Set up Python
-             uses: actions/setup-python@v4
-             with:
-               python-version: '3.x'
+### **3. Roles and Responsibilities**  
+- **Team Member Roles**: Assign a specific role to each member, ensuring that all aspects of the project are covered.  Here are some examples:
+  - **Project Manager**: Oversees planning and progress tracking.  
+  - **Frontend Developer**: Handles the user interface development.  
+  - **Backend Developer**: Manages server logic and API integration.  
+  - **Tester**: Develops and runs test suites (unit, integration).  
+  - **DevOps Engineer**: Manages Dockerization and CI/CD pipelines.  
+- **Contribution Plan**: Include how each member will **consistently contribute** throughout the sprints.  Your team needs to identify how team members will be consistently tasked with work.  
 
-           - name: Install dependencies
-             run: |
-               python -m pip install --upgrade pip
-               pip install -r requirements.txt
+---
 
-           - name: Run tests
-             run: |
-               pytest
-     ```
+### **4. Concept Screens and Data Flow Diagram**  
+- **Concept Screens**: Include **mockups** or **wireframes** showing the key screens of your system.  Provide a description of how the user would interact with your system via the mockup.
+- **Data Flow Diagram**: Provide a diagram showing the **flow of data** between frontend, backend, databases, and any external services.  Provide a descritpion on how the data flow occurs.
 
-### 3. Establish an Action
+---
 
-- **Make a Change to Trigger the Workflow**:
-  1. Make a small, innocuous change in the code or `README.md` file to trigger the CI/CD pipeline.
-  2. Commit your changes with a message like `"Test CI/CD pipeline"` and push to GitHub.
-     ```bash
-     git add .
-     git commit -m "Test CI/CD pipeline"
-     git push origin main
-     ```
+### **5. Sprint Plan with Milestones**  
+- **Sprint Structure**: Divide your project into **three two-week sprints** with clear deliverables for each.  Here is an example:  
+  - **Sprint 1 (Oct 23 - Nov 7)**: Initial setup, core development (e.g., backend, basic UI).  
+  - **Sprint 2 (Nov 8 - Nov 21)**: Feature development, UI-backend integration, and tests.  
+  - **Sprint 3 (Nov 22 - Dec 5)**: Final polish, testing, bug fixes, and delivery (consider **Thanksgiving** for Sprint 3 planning).  
+- **Milestones**: List key **milestones** for each sprint to ensure accountability.
 
-### 4. Run Tests and Ensure They Pass
+You must create a GitHub project and share it with the instructor.  Your must create a set of fine grained tasks (issues in the GitHub project) that clearly identify the work your team plans to perform in each sprint.
 
-- **Verify Tests Run in the Pipeline**:
-  1. Monitor the **"Actions"** tab on GitHub to see if your workflow runs successfully.
-  2. Ensure that the tests defined in your project pass within the CI pipeline.
-  3. If any tests fail, debug the issues, fix them, and push the changes to re-run the pipeline.
+---
 
-### 5. Push the Docker Container to DockerHub
+### **6. Deployment Strategy and CI/CD Plan**  
+You must create a deployment plan for your project that uses the GitHub Actions and workflows!  Specifically:
 
-- **DockerHub Setup**:
-  1. Ensure you have a DockerHub account. If you don't, create one at [DockerHub](https://hub.docker.com/).
-  2. Create a new repository in DockerHub where you will push your Docker image.
+- **CI/CD Pipeline**: Detail your **CI/CD strategy** using **GitHub Actions** (or other tools).  
+- **Automation Goals**: Include **unit tests**, **integration tests**, and **automated deployment**.  
+- **Containerization**: Specify how Docker will be used to package and deploy your system.
 
-- **Docker Build and Push**:
-  1. Log in to DockerHub from your command line:
-     ```bash
-     docker login
-     ```
-  2. Build the Docker image from your project:
-     ```bash
-     docker build -t yourusername/yourimage:latest .
-     ```
-  3. Tag the Docker image (if necessary):
-     ```bash
-     docker tag yourimage:latest yourusername/yourimage:latest
-     ```
-  4. Push the Docker image to DockerHub:
-     ```bash
-     docker push yourusername/yourimage:latest
-     ```
+---
 
-- **Update CI/CD Pipeline to Automate Docker Push** (Optional):
-  1. Optionally, update your CI/CD pipeline to automatically build and push the Docker image to DockerHub after tests pass:
-     ```yaml
-     jobs:
-       build:
-         runs-on: ubuntu-latest
-         
-         steps:
-           - name: Checkout code
-             uses: actions/checkout@v3
+### **7. Risks and Mitigations**  
+- **Identify at least 3 Risks** your project might encounter (technical challenges, holidays, time constraints, etc.).  
+- **Mitigation Strategy**: Propose how you’ll handle each risk.  
 
-           - name: Set up Python
-             uses: actions/setup-python@v4
-             with:
-               python-version: '3.x'
+---
 
-           - name: Install dependencies
-             run: |
-               python -m pip install --upgrade pip
-               pip install -r requirements.txt
+### **8. Communication Plan**  
+- **Meeting Schedule**: How often will your team meet (e.g., weekly standups, sprint retrospectives)?  
+- **Tools Used**: What tools will you use for communication (e.g., Discord, GitHub Issues)?  
+- **Retrospective Notes**: Add a section explaining that your team will submit a markdown file, `RetrospectiveMeetingNotes.md`, at the end of each sprint summarizing challenges, successes, and improvements.  These notes should be saved in the GitHub repository so they are archived and may be reviewed.
 
-           - name: Run tests
-             run: |
-               pytest
+---
 
-           - name: Build Docker image
-             run: docker build -t yourusername/yourimage:latest .
+### **9. Success Criteria**  
+- Define the **Key Performance Indicators (KPIs)** that will measure your success.  
+  Example:
+  - 80% of unit tests pass in the CI/CD pipeline.
+  - The final product is containerized and runs smoothly.
+  - All sprints completed with no more than 3 backlog items carried over.
 
-           - name: Push Docker image to DockerHub
-             env:
-               DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-               DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
-             run: |
-               echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
-               docker push yourusername/yourimage:latest
-     ```
-  2. Add your DockerHub credentials to GitHub Secrets (`DOCKERHUB_USERNAME` and `DOCKERHUB_PASSWORD`) for secure access during the CI/CD process.
+---
 
-## Deliverables
+## **Kickoff Presentation Requirements**
 
-1. **Cloned and Renamed Repository**:
-   - The repository should be cloned, renamed, and pushed to your personal GitHub space.
+Your team will give a **15 minute presentation** that summarizes the key elements of your kickoff document. **Slides** must be prepared and submitted along with the kickoff document in your GitHub repository.
 
-2. **CI/CD Pipeline**:
-   - A functional CI/CD pipeline that runs tests whenever changes are pushed to the `main` branch.
+### **Presentation Outline:**
+1. **Introduction**: Brief overview of the project and the problem it solves.
+2. **Technology Stack**: Highlight key tools, frameworks, and technologies.
+3. **Roles and Responsibilities**: Briefly mention the role of each member.
+4. **Concept Screens and Data Flow**: Show mockups and explain the flow of data in your system.
+5. **Sprint Plan**: Describe the key milestones for each sprint.
+6. **Deployment and CI/CD Plan**: Explain how your project will be built, tested, and deployed.
+7. **Challenges and Risks**: Outline the main risks and mitigation strategies.
+8. **Questions**: Prepare to take questions from the class and instructor.
 
-3. **Passing Tests**:
-   - All tests should pass in the CI/CD pipeline.
+---
 
-4. **Docker Image on DockerHub**:
-   - A Docker image of your project should be successfully pushed to DockerHub and available in your personal DockerHub repository.
+## **Submission Instructions**  
+- **Document**: Submit the Kickoff Document in your GitHub repository.  
+- **Slides**: Add the **presentation slides** to the GitHub repository.  
+- **Presentation**: Deliver your presentation in class as scheduled on October 31, 2024.  
 
-## Grading Rubric
+---
 
-| Item                                  | Hi Points                                                      | Med Points                                                   | Low Points                                                   |
-|---------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
-| Repository Cloning and Renaming       | Repository is correctly cloned, renamed, and pushed to GitHub with all references updated. | Repository is cloned and renamed, but some references or files are not updated correctly. | Repository is cloned but not renamed properly, or issues are present with the push to GitHub. |
-| CI/CD Pipeline Setup                  | CI/CD pipeline is correctly set up, runs on each push, and tests are passing. | CI/CD pipeline is set up but may have issues with execution or test coverage. | CI/CD pipeline is poorly set up, with failing tests or improper configuration. |
-| Docker Image Push to DockerHub        | Docker image is successfully built and pushed to DockerHub, and is accessible. | Docker image is built but may have issues with tagging or pushing to DockerHub. | Docker image is not successfully built or pushed to DockerHub, or is inaccessible. |
+## **Scoring Rubric for Assignment 5**  
+Here is a **scoring rubric** broken down between the **Kickoff Document (75 points)** and **Presentation (25 points)**. Each section of the document and presentation is weighted to reflect its importance.
+
+---
+
+## **Kickoff Document and Presentation Scoring Rubric**  
+**Total Points: 100**
+
+---
+
+### **Kickoff Document (75 points total)**  
+
+| **Section**                       | **Criteria**                                                                                 | **Points** |
+|------------------------------------|---------------------------------------------------------------------------------------------|------------|
+| **Project Overview**               | Clear title, description of the problem, and identification of target users or customers.     | 10         |
+| **Technology Stack**               | Well-defined stack with a justification for chosen technologies and tools.                    | 10         |
+| **Team Roles and Contribution Plan** | Roles assigned with a clear plan for consistent contribution from all members.                | 10         |
+| **Concept Screens & Data Flow Diagram** | Mockups/wireframes for key screens and a data flow diagram showing how system components interact. | 15         |
+| **Sprint Plan with Milestones**    | Detailed sprint breakdown, clear deliverables for each sprint, and consideration of holidays.  | 15         |
+| **Deployment & CI/CD Plan**        | Explanation of CI/CD strategy, tests, and containerization approach (e.g., Docker).            | 10         |
+| **Risk Management**                | Identification of risks and clear mitigation strategies.                                      | 5          |
+---
+
+### **Presentation (25 points total)**  
+
+| **Presentation Element**              | **Criteria**                                                                   | **Points** |
+|---------------------------------------|-------------------------------------------------------------------------------|------------|
+| **Introduction**                      | Concise introduction that explains the project purpose and goals.              | 5          |
+| **Technology Stack & System Architecture** | Overview of chosen technologies and how components interact.                  | 5          |
+| **Sprint Plan and Milestones**        | Explanation of sprint structure, key deliverables, and any adjustments made.   | 5          |
+| **Concept Screens & Data Flow**       | Visuals that illustrate the system’s design and data flow.                     | 5          |
+| **Challenges and Risks**              | Identification of challenges with strategies for handling them.                | 5          |
+
+---
+
+### **Grading Guidelines**
+
+- **Late Submission**: Deduct 10% for each day late.  
+- **Incomplete Work**: Sections with missing components receive **half credit** for that section.  
+
+---
