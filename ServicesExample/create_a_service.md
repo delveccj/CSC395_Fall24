@@ -1,10 +1,4 @@
-1. **Create an Additional Endpoint**:
-   Each microservice can have a new `/execute` endpoint to execute limited, predefined commands (not full terminal access).
-
-2. **Restrict Commands**:
-   Allow only a small set of harmless commands (e.g., `ls`, `whoami`, etc.) and disallow commands that can modify the system.
-
-3. **Code Example**:
+1. **Code Example**:
    Here’s how to set it up in a Flask microservice:
 
    ```python
@@ -54,7 +48,13 @@
 
    This will return the output of the `ls` command.
 
-5. **Security Note**:
+5. **Create Endpoints**:
+ Note the `/execute` endpoint to execute limited, predefined commands (not full terminal access).
+
+6. **Restrict Commands**:
+   Allow only a small set of harmless commands (e.g., `ls`, `whoami`, etc.) and disallow commands that can modify the system.
+
+7. **Security Note**:
    - This setup is *highly restrictive* and only for educational purposes.
    - You sort of just created a really, really simple command and control client!
    - **Do not** expose this endpoint in a production environment.
