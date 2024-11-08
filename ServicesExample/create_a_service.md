@@ -58,6 +58,3 @@
    - This setup is *highly restrictive* and only for educational purposes.
    - You sort of just created a really, really simple command and control client!
    - **Do not** expose this endpoint in a production environment.
-   - Consider logging all commands executed to track usage.
-
-This limited approach allows you to experiment with a “terminal-like” command execution while keeping risks low. 
