@@ -1,7 +1,3 @@
-Certainly! Here’s a rephrased version with a clear emphasis on learning microservices, security concepts, and malware awareness.
-
----
-
 ### Microservice Educational Example: Flask and Basic Security Practices
 
 This example is designed to help students understand **how to build a simple Flask microservice** and explore the **security implications** of command execution in a web application. The code demonstrates restricted command execution within a microservice, highlighting both microservice basics and the importance of security controls.
