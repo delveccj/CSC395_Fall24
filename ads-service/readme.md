@@ -154,5 +154,5 @@ Visit `http://127.0.0.1:5000` in your browser. You should see a table that updat
 ### Step 5: Show the Dots on a Map!
 
 1. **Mapping**: Use a JavaScript mapping library like **Leaflet.js** to show flight positions on a map.
-2. Can we do it?
+2. **Prize Time** Can we do it?  There's a special prize if you do 🏆
 
