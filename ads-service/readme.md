@@ -146,7 +146,7 @@ Inside the `templates` folder, create `index.html`. This file will use JavaScrip
 Now you’re ready to run the Flask app.
 
 ```bash
-python app.py
+python3.10 app.py
 ```
 
 Visit `http://127.0.0.1:5000` in your browser. You should see a table that updates every 15 seconds with the latest ADS-B data for flights.
