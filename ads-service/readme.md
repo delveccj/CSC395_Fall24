@@ -1,5 +1,3 @@
-Absolutely! Here’s a step-by-step tutorial using Python to create a simple web app that fetches and displays ADS-B data. This example will use **Flask** for the web app and **OpenSky Network** for ADS-B data since it offers a free API with basic flight information.
-
 ### Prerequisites
 
 1. **Install Flask and Requests**:
@@ -159,6 +157,3 @@ Visit `http://127.0.0.1:5000` in your browser. You should see a table that updat
 2. **Filters**: Add input fields to filter flights by altitude, country, or other criteria.
 3. **Error Handling**: Add better error messages if the data fetch fails.
 
----
-
-This setup provides a good foundation for an interactive, real-time web app that retrieves and displays ADS-B data. Happy coding!
