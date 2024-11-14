@@ -151,9 +151,8 @@ python app.py
 
 Visit `http://127.0.0.1:5000` in your browser. You should see a table that updates every 15 seconds with the latest ADS-B data for flights.
 
-### Step 5: Optional Enhancements
+### Step 5: Show the Dots on a Map!
 
 1. **Mapping**: Use a JavaScript mapping library like **Leaflet.js** to show flight positions on a map.
-2. **Filters**: Add input fields to filter flights by altitude, country, or other criteria.
-3. **Error Handling**: Add better error messages if the data fetch fails.
+2. Can we do it?
 
