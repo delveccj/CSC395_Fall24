@@ -1,7 +1,3 @@
-This sounds like a fun and educational project! Let’s create the two parts: a **Flask server with logging and diagnostics** and a **script to simulate a DDOS attack**. These will provide your students with clear insights into how the server performs under stress.
-
----
-
 ## **1. Flask Server with Diagnostics**
 Here’s a Flask server with an endpoint that logs response times and the server's resource state.
 
