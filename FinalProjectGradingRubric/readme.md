@@ -16,9 +16,9 @@
 | **Criteria**                     | **Description**                                                                 | **Points** |
 |-----------------------------------|---------------------------------------------------------------------------------|------------|
 | **Introduction**                 | Clear overview of the project goals, problem statement, and target audience.    | 5          |
-| **Demonstration of Functionality**| Effective demonstration of the final product, showcasing key features and how it meets user needs. | 15         |
+| **Demonstration of Functionality**| Effective demonstration of the final product, showcasing key features and how it meets user needs. | 20         |
 | **Technology Overview**          | Concise explanation of the tech stack and why it was appropriate for the project. | 5          |
-| **Sprint Review**                | Detailed review of sprint milestones, challenges encountered, and solutions implemented. | 10         |
+| **Sprint Review**                | Detailed review of sprint milestones, challenges encountered, and solutions implemented. | 5         |
 | **Team Collaboration**           | Clear description of roles, contributions, and teamwork dynamics throughout the project. | 5          |
 | **Visuals and Presentation Style** | Professional and engaging use of visuals (e.g., slides, diagrams). Presentation is clear, logical, and well-organized. | 5          |
 | **Q&A Session**                  | Confident and accurate responses to questions from the audience and instructor. | 5          |
